@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #ffabb2;
+}
+
+p {
+    color: #683070;
+    font-weight: 500;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-border {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #474476;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.profile-container svg {
+    fill: #474476;
+}
+
+.heading {
+    color: #474476;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 12px;
+    padding: 16px;
+}
+
+.profile-name {
+    color: #2a2a63;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.profile-profession {
+    color: #683070;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.profile-summary {
+    color: #683070;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.left-border {
+    border-left: 3px solid #2a2a63;
+}
+
+.bottom-line {
+    border: 3px solid #2a2a63;
+}
+
+.company-name {
+    color: #404073;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.work-description {
+    font-weight: normal;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+.circles svg {
+    fill: #404073
+}
+
+.circle-border-icons {
+    width: 70px;
+    height: 70px;
+    background-color: #404073;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.circle-border-icons svg {
+    fill: rgba(255, 161, 169, 255);
+    padding: 3px;
+}
